@@ -223,6 +223,7 @@ h1 {
     padding-bottom: 5px;
     box-sizing: border-box;
     margin-top: 30px;
+    border: none;
 }
 
 .primary-para {
@@ -298,6 +299,7 @@ span {
     padding-bottom: 5px;
     box-sizing: border-box;
     margin-top: 30px;
+    border: solid 2px #a6a7a8;
 }
 
 .section-two-left,
@@ -335,6 +337,7 @@ span {
 
 .section-three-left {
     width: 40%;
+    background-color: white;
 }
 
 img {
@@ -344,12 +347,17 @@ img {
 
 .image-1 {
     font-size: 0;
+    margin-bottom: -12px;
 }
 
 .section-three-right {
     padding-top: 80px;
     padding-left: 50px;
-    background-color: #ecebeb;
+    background-color: white;
+}
+
+.section-three-bg {
+    background-color: lightgray;
 }
 
 
@@ -371,11 +379,17 @@ img {
     padding-bottom: 5px;
     box-sizing: border-box;
     margin-top: 30px;
+    border: solid 2px #717171;
 }
 
 .section-four {
     text-align: center;
     padding-bottom: 70px;
+    background-color: lightgray;
+}
+
+.section-four-bg {
+    background-color: lightgray;
 }
 
 
@@ -423,6 +437,7 @@ img {
     padding-bottom: 5px;
     box-sizing: border-box;
     margin-top: 30px;
+    border: solid 2px #717171;
 }
 
 .section-five-left,
