@@ -178,6 +178,11 @@ h2 {
     justify-content: space-between;
 }
 
+header {
+    position: absolute;
+    width: 100%;
+}
+
 .nav-bar {
     padding-left: 15px;
     text-decoration: none;
@@ -191,14 +196,14 @@ h2 {
 
 .primary {
     padding-top: 150px;
+    padding-bottom: 90px;
+    background-image: linear-gradient(to right, #584977, #774079);
+}
+
+.flex {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 90px;
-}
-
-.cover-background {
-    background-image: linear-gradient(to right, #584977, #774079);
 }
 
 .primary-left,
